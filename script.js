@@ -26,8 +26,8 @@ elements.forEach(function(elem){
         console.log(elem.getBoundingClientRect());
 
         gsap.to(elem.childNodes[3],{
-            x:dets.x - elem.getBoundingClientRect().x -90,
-            y:dets.y - elem.getBoundingClientRect().y - 215
+            x:dets.x - elem.getBoundingClientRect().x -50,
+            y:dets.y - elem.getBoundingClientRect().y - 120
             
         })
     })
