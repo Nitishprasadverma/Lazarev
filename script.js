@@ -74,6 +74,45 @@ function page3Animation(){
     })
 }
 
+//product drop-down
+function page6(){
 
+    //ui-ux section
+    var drop = document.querySelector(".ui-ux");
+
+    drop.addEventListener("click" , function(elem){
+        var arrowIcon = document.querySelector("#arrow-icon");
+      
+        if (arrowIcon.classList.contains('ri-arrow-up-s-line')) {
+            // Change to down arrow
+            arrowIcon.classList.remove('ri-arrow-up-s-line');
+            arrowIcon.classList.add('ri-arrow-down-s-line');
+        } else {
+            // Change to up arrow
+            arrowIcon.classList.remove('ri-arrow-down-s-line');
+            arrowIcon.classList.add('ri-arrow-up-s-line');
+        }
+ 
+    })
+
+
+//product section
+
+    var product = document.querySelector(".product");
+    product.addEventListener("click", function(){
+        var arrowIcone = document.querySelector("#arrow-icons");
+        if(arrowIcone.classList.contains("ri-arrow-down-s-line")){
+            arrowIcone.classList.remove("ri-arrow-down-s-line")
+            arrowIcone.classList.add("ri-arrow-up-s-line")
+        }
+        else{
+    arrowIcone.classList.remove("ri-arrow-up-s-line")
+    arrowIcone.classList.add("ri-arrow-down-s-line")
+        }
+    })
+}
+
+
+page6();
 page2Animation();
 page3Animation();
