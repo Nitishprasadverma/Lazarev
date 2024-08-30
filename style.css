@@ -675,3 +675,159 @@ summary::marker{
 .drop-dwon svg{
     height: 2vw;
 }
+
+
+
+/* page7 cards */
+.section-container{
+    min-height: 100vh;
+    background-color: #111;
+    
+}
+.para-head{
+    /* border-top: 1px solid #3d3d3d; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.para-head h3{
+    font-size: 16px;
+    /* width: 40; */
+    padding: 0;
+    margin: 0;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+
+}
+.border{
+    width: 80%; 
+            height: 1px; 
+            background-color: #222; 
+            margin: 0 auto; 
+            
+            top: 0;
+            left: 0;
+            right: 0;
+}
+.para-head>p{
+    margin-left: 20px;
+    font-size:2.4rem;
+    line-height: 1;
+    width: 55vw;
+}
+
+.carts-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding-top: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 5vw;
+}
+
+.card{
+    background-color: #222;
+    border-radius: 4px;
+    padding: 30px;
+    position: relative;
+    box-sizing: border-box;
+    height: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card i{
+    font-size: 1vw;
+position: relative;
+transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+z-index: 8;
+}
+
+.card:hover i{
+    padding-right: 0.5vw;
+}
+
+.card:hover {
+    transform: translateX(0);
+    
+}
+
+
+
+
+.card p{
+    font-size: 13px;
+    color: #dcdcdc;
+}
+
+.card i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.card.green {
+    background-color: #28a745;
+}
+
+
+
+
+
+
+/* page4 */
+
+
+#page4-carts{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 120px;
+    /* width: 100%; */
+    padding: 40px;
+    padding-left: 150px;
+   
+}
+
+.stat-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h2 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #111;
+    font-weight: bold;
+}
+
+.stat-card p {
+    margin: 10px 0 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.stat-card .stat-number {
+    font-size: 0.85em;
+    text-align: right;
+    color: #111;
+}
