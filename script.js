@@ -63,15 +63,15 @@ function loadingAnimation(){
     })
 
     t1.from("#page1",{
-        transform: "scaleX(0.7) scaleY(0.2) translateY(80%)",
+        transform: "scaleX(8) scaleY(0.2) translateY(80%)",
         borderRadius:"150px",
         duration:1,
         ease:"expo.out"
     })
 
-    t1.from("#menu-bar",{
+    t1.from(".menu-bar",{
         opacity:0,
-        delay:-0.2
+        delay:-0.1
     })
     t1.from("#page1 p, #page div",{
         opacity:0,
@@ -108,13 +108,20 @@ function page2Animation() {
 
             gsap.to(elem.childNodes[3], {
                 x: dets.x - elem.getBoundingClientRect().x - 50,
-                y: dets.y - elem.getBoundingClientRect().y - 120
+                y: dets.y - elem.getBoundingClientRect().y - 170
 
             })
         })
     })
 
 }
+
+
+// footer connect
+
+
+
+
 // page3
 function page3Animation() {
     var page3Center = document.querySelector(".page3-center")
@@ -240,8 +247,8 @@ function page7() {
     )
 }
 loadingAnimation()
-locomotiveAnimation();
-page2Animation();
-page3Animation();
-page6();
-page7();
+// locomotiveAnimation();
+// page2Animation();
+// page3Animation();
+// page6();
+// page7();
