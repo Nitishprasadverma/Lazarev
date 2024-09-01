@@ -108,7 +108,7 @@ function page2Animation() {
 
             gsap.to(elem.childNodes[3], {
                 x: dets.x - elem.getBoundingClientRect().x - 50,
-                y: dets.y - elem.getBoundingClientRect().y - 170
+                y: dets.y - elem.getBoundingClientRect().y - 150
 
             })
         })
