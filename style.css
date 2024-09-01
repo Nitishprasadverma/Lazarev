@@ -43,9 +43,21 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
+    /* margin-left: 5vw; */
+   /* margin: 0 auto;
+   padding: 0 200px; */
+   border-bottom: 0.7px solid #222;
     /* position: relative; */
 }
-
+/* .brd{
+    position: absolute;
+    top: 4.5rem;
+   
+    width: 85%;
+    padding-left: 200px;
+   margin-right: 200px;
+    border: 1px solid white;
+} */
 .menu-bar ul {
     list-style: none;
     display: flex;
