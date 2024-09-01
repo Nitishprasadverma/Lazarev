@@ -1078,9 +1078,9 @@ summary::marker {
 /* footer */
 
  footer{
-    height: 80vh;
+   min-height: 80vh;
     width: 100%;
-    background-color: #000;
+    background-color: #111;
 }
 
 .uper-footer{
@@ -1090,7 +1090,8 @@ summary::marker {
   
    margin-left: 15vw;
    margin-right: 15vw;
-   border-top: 2px solid #dadada;
+   /* border-top: 2px solid #dadada; */
+   
    
 } 
 
@@ -1150,8 +1151,9 @@ summary::marker {
     font-size: 13px;
     width: 10vw;
     padding: 6px 3px;
-    background-color: #000;
+    background-color: #111;
     border: 1px solid white;
+   
     border-radius: 50px;
     margin-bottom: 3vh;
 }
@@ -1248,7 +1250,7 @@ font-weight: 400;
     padding: 5px 2px;
     border-radius: 50px;
     border: 1px solid #ffff;
-    background-color: #000;
+    background-color: #111;
     color: #ffff;
    font-size: 16px;
    font-weight: 900;
@@ -1260,4 +1262,33 @@ font-weight: 400;
 .social-btn:hover{
     background-color: white;
     color: #000;
+}
+
+#buttom-ffot{
+   
+    width: 70vw;
+   
+    border-top: 0.3px solid #666;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    
+}
+.c-footer{
+    font-weight: 700;
+}
+
+.c-footer-ryt{
+    display: flex;
+    font-weight: 700;
+ gap: 14rem;
+  justify-content: space-between;
+ 
+}
+
+.tie-line{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+
 }

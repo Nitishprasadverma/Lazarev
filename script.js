@@ -247,8 +247,8 @@ function page7() {
     )
 }
 loadingAnimation()
-// locomotiveAnimation();
-// page2Animation();
-// page3Animation();
-// page6();
-// page7();
+locomotiveAnimation();
+page2Animation();
+page3Animation();
+page6();
+page7();
